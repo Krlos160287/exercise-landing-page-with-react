@@ -1,5 +1,6 @@
 import React from "react";
+import { Card } from "./card";
 
 export const Container = () => {
-	return <p>Que te follen</p>;
+	return <p>hola</p>;
 };
