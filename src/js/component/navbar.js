@@ -2,9 +2,9 @@ import React from "react";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
-			<a className="navbar-brand" href="#">
-				Navbar
+		<nav className="navbar navbar-expand-lg bg-dark">
+			<a className="navbar-brand" href="#" style={{ color: "white" }}>
+				Start Boostrap
 			</a>
 			<button
 				className="navbar-toggler"
@@ -20,66 +20,40 @@ export const Navbar = () => {
 			<div
 				className="collapse navbar-collapse"
 				id="navbarSupportedContent">
-				<ul className="navbar-nav mr-auto">
+				<ul className="navbar-nav ml-auto">
 					<li className="nav-item active">
-						<a className="nav-link" href="#">
+						<a
+							className="nav-link"
+							href="#"
+							style={{ color: "white" }}>
 							Home <span className="sr-only">(current)</span>
 						</a>
 					</li>
-					<li className="nav-item">
-						<a className="nav-link" href="#">
-							Link
+					<li className="nav-item active">
+						<a
+							className="nav-link"
+							href="#"
+							style={{ color: "white" }}>
+							About
 						</a>
 					</li>
-					<li className="nav-item dropdown">
+					<li className="nav-item active">
 						<a
-							className="nav-link dropdown-toggle"
+							className="nav-link"
 							href="#"
-							id="navbarDropdown"
-							role="button"
-							data-toggle="dropdown"
-							aria-haspopup="true"
-							aria-expanded="false">
-							Dropdown
+							style={{ color: "white" }}>
+							Services
 						</a>
-						<div
-							className="dropdown-menu"
-							aria-labelledby="navbarDropdown">
-							<a className="dropdown-item" href="#">
-								Action
-							</a>
-							<a className="dropdown-item" href="#">
-								Another action
-							</a>
-							<div className="dropdown-divider"></div>
-							<a className="dropdown-item" href="#">
-								Something else here
-							</a>
-						</div>
 					</li>
-					<li className="nav-item">
+					<li className="nav-item active">
 						<a
-							className="nav-link disabled"
+							className="nav-link"
 							href="#"
-							tabIndex="-1"
-							aria-disabled="true">
-							Disabled
+							style={{ color: "white" }}>
+							Contact
 						</a>
 					</li>
 				</ul>
-				<form className="form-inline my-2 my-lg-0">
-					<input
-						className="form-control mr-sm-2"
-						type="search"
-						placeholder="Search"
-						aria-label="Search"
-					/>
-					<button
-						className="btn btn-outline-success my-2 my-sm-0"
-						type="submit">
-						Search
-					</button>
-				</form>
 			</div>
 		</nav>
 	);

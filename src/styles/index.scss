@@ -11,3 +11,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin:auto;
+    width: 100%;
+}
+.card{
+    margin:10px;
+}
+.Porc{
+    display:flex;
+}
+.cont{
+    width: 75%;
+    justify-items: center;
+    margin:auto;
+}
+.text1{
+    text-align: center;
+}
